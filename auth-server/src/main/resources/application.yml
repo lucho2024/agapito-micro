@@ -1,0 +1,19 @@
+spring:
+  zipkin:
+    baseUrl:  http://locahost:9411
+  application:
+    name: auth-server
+
+server:
+  port: 8010
+
+jwt:
+  secret: secret
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+    hostname: localhost

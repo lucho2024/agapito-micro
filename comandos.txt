@@ -1,0 +1,3 @@
+./grafana-server.exe
+./prometheus --config.file=prometheus.yml
+java -jar zipkin.jar
